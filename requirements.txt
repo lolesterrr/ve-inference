@@ -1,7 +1,7 @@
 fastapi
 uvicorn[standard]
-torch --no-cache-dir
-clip @ git+https://github.com/openai/CLIP.git
+torch
 pillow
 numpy
 python-multipart
+git+https://github.com/openai/CLIP.git
